@@ -7,6 +7,7 @@ hr{
 }
 :root{
     --primary-color: #7C3AED;
+    --dark-gray:#6B7280
 }
 .container{
     padding-left: 1rem;
@@ -69,9 +70,12 @@ hr{
     width: 300px;
     display: block;
 }
-
-
-
+.hero .hero-heading{
+    color: var(--dark-gray);
+}
+.hero .heading-inverted{
+    color: var(--primary-color);
+}
 
 
 
