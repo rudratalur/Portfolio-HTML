@@ -2,6 +2,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+hr{
+    margin: 2rem 0rem;
+}
 :root{
     --primary-color: #2563EB;
 }
@@ -13,6 +16,18 @@ body{
     max-width: 600px;
     margin: auto;
 }
- .primary-link{
-    color: var(--primary-color);
+.link{
+    text-decoration: none;
+    padding: 00.5rem 0.1rem;
+}
+ .link-primary{
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
 } 
+.link-secondary{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
