@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,700&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 hr{
     margin: 2rem 0rem;
@@ -73,6 +74,7 @@ hr{
 }
 .hero .hero-heading{
     color: var(--dark-gray);
+    text-align: center;
 }
 .hero .heading-inverted{
     color: var(--primary-color);
@@ -86,5 +88,18 @@ hr{
 }
 .ow{
     background-color: var(--off-white);
-
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+    
+}
+.social-links{
+    padding-inline-start: 0px;
 }
